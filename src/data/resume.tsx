@@ -18,6 +18,8 @@ export const DATA = {
     "Node.js",
     "Python",
     "React Native",
+    "figma",
+    "canva",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -80,6 +82,7 @@ export const DATA = {
         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
   ],
+
   education: [
     {
       school: "St.Hubert ",
@@ -170,6 +173,85 @@ export const DATA = {
       ],
       image: "",
       video: "https://cdn.llm.report/openai-demo.mp4",
+    },
+  ],
+
+  brand: [
+    {
+      title: "Zen",
+      href: "https://www.behance.net/gallery/202658939/Zen",
+      dates: "July 6th 2024",
+      active: true,
+      description:
+        "At Zen, we believe in the beauty of simplicity and the power of mindfulness. Our brand is dedicated to creating timeless, minimalist clothing that embodies tranquility and elegance",
+      technologies: ["Figma", "Canva", "Photoshop", "Jitter"],
+      links: [
+        {
+          type: "Clothing Brand",
+          href: "https://www.behance.net/gallery/202658939/Zen",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://res.cloudinary.com/dvfmse8he/image/upload/v1720889473/ezgif-4-0a0446b146_uvt6bu.gif",
+      video: "",
+    },
+    {
+      title: "ARC",
+      href: "https://www.behance.net/gallery/202225395/ARC",
+      dates: "July 1st 2024",
+      active: true,
+      description:
+        "ARC’s brand message focuses on innovation, sustainability, and collaboration. The tagline, “Building the Future, Today,” encapsulates ARC’s mission to create cutting-edge, environmentally responsible designs through a client-centric approach.",
+      technologies: ["Figma", "Canva"],
+      links: [
+        {
+          type: "Architecture Brand",
+          href: "https://www.behance.net/gallery/202225395/ARC",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://res.cloudinary.com/dvfmse8he/video/upload/v1721057807/Group-1321316201_sohjxz.mp4",
+    },
+    {
+      title: "Hollow",
+      href: "https://www.behance.net/gallery/198507869/Hollow-Brand",
+      dates: "May 13th 2024",
+      active: true,
+      description:
+        "Hollow is a contemporary clothing brand that redefines modern fashion with a minimalist edge. Our designs blend simplicity with sophistication, offering versatile pieces that effortlessly transition from day to night. ",
+      technologies: ["Canva", "Photoshop"],
+      links: [
+        {
+          type: "Clothing Brand",
+          href: "https://www.behance.net/gallery/198507869/Hollow-Brand",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://res.cloudinary.com/dvfmse8he/video/upload/v1721060053/Photo-Gallery-_remix_dnpogn.mp4",
+    },
+    {
+      title: "The Kings",
+      href: "https://www.behance.net/gallery/174894245/Esports-Brand",
+      dates: "July 9th 2023",
+      active: true,
+      description:
+        "The Kings, where passion meets performance. As a premier esports organization, we are dedicated to excellence in competitive gaming.",
+      technologies: ["Canva", "Photoshop"],
+      links: [
+        {
+          type: "Esports Brand",
+          href: "https://www.behance.net/gallery/174894245/Esports-Brand",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://res.cloudinary.com/dvfmse8he/image/upload/v1721060253/Screenshot_2024-07-15_at_4.16.41_PM_szjfr7.png",
+      video: "",
     },
   ],
   hackathons: [

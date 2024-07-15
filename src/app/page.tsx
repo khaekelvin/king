@@ -152,6 +152,49 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      <section id="projects">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 11}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Graphic Design
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Graphic Design Projects
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  My work combines creativity, attention to detail, and a strong
+                  understanding of design principles to bring ideas to life and
+                  communicate messages effectively.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+            {DATA.brand &&
+              DATA.brand.map((brand, id) => (
+                <BlurFade
+                  key={brand.title}
+                  delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+                >
+                  <ProjectCard
+                    href={brand.href}
+                    key={brand.title}
+                    title={brand.title}
+                    description={brand.description}
+                    dates={brand.dates}
+                    tags={brand.technologies}
+                    image={brand.image}
+                    video={brand.video}
+                    links={brand.links}
+                  />
+                </BlurFade>
+              ))}
+          </div>
+        </div>
+      </section>
       <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
