@@ -74,9 +74,9 @@ export const DATA = {
       title: "Frontend Intern",
       logoUrl: "/pces.png",
       start: "June 2024",
-      end: "August 2022",
+      end: "August 2024",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "During my internship at PCES, I developed and tested software applications using NextJs, Typescript, Tailwind CSS and collaborated with cross-functional teams to enhance user experience and ensure project alignment. This experience strengthened my coding skills and teamwork abilities.",
     },
   ],
 
