@@ -10,7 +10,7 @@ export const DATA = {
   description: "Web Developer | UI/UX Designer | Graphic Designer",
   summary:
     "My name is Kelvin, and I'm a web developer currently studying at a University. With a passion for design and an eye for detail..",
-  avatarUrl: "/me.png",
+  avatarUrl: "/skull.gif",
   skills: [
     "React",
     "Next.js",
@@ -23,9 +23,13 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    { href: "#", icon: CodeIcon, label: "Projects" },
-    { href: "#", icon: PencilLine, label: "Notes" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // { href: "#", icon: CodeIcon, label: "Projects" },
+    {
+      href: "https://drive.google.com/file/d/1a2nt5CWU9zU6H6vteh01H2Q3x-bdPEbW/view?usp=sharing",
+      icon: PencilLine,
+      label: "resume",
+    },
   ],
   contact: {
     email: "hello@example.com",
@@ -45,10 +49,10 @@ export const DATA = {
 
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: Icons.x,
+      email: {
+        name: "Send Email",
+        url: "mailto:kelvinksd500@gmail.com",
+        icon: Icons.email,
 
         navbar: true,
       },
@@ -56,13 +60,6 @@ export const DATA = {
         name: "Youtube",
         url: "https://dub.sh/dillion-youtube",
         icon: Icons.youtube,
-        navbar: true,
-      },
-      email: {
-        name: "Send Email",
-        url: "kelvinksd500@gmail.com",
-        icon: Icons.email,
-
         navbar: false,
       },
     },
@@ -126,7 +123,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "https://res.cloudinary.com/dvfmse8he/video/upload/v1721071958/Showreel_-Web-gallery-_remix_ujpfpy.mp4",
     },
     {
       title: "ARC",
@@ -149,7 +146,8 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video:
+        "https://res.cloudinary.com/dvfmse8he/video/upload/v1721072939/Animated-iPad-mockup-_remix_yx0aee.mp4",
     },
     {
       title: "BlogSite",
@@ -172,7 +170,8 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video:
+        "https://res.cloudinary.com/dvfmse8he/video/upload/v1721072453/Image-Mask_-Parallax-Effect-_remix_uzjt8k.mp4",
     },
   ],
 
