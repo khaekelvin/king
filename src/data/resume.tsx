@@ -173,6 +173,30 @@ export const DATA = {
       video:
         "https://res.cloudinary.com/dvfmse8he/video/upload/v1721072453/Image-Mask_-Parallax-Effect-_remix_uzjt8k.mp4",
     },
+    {
+      title: "Zen",
+      href: "https://zen-brand.vercel.app/",
+      dates: "February 2024 - June 2024",
+      active: true,
+      description:
+        "At Zen, we believe in the beauty of simplicity and the power of mindfulness. Our brand is dedicated to creating timeless, minimalist clothing that embodies tranquility and elegance",
+      technologies: ["Next.js", "Typescript", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://zen-brand.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/khaekelvin/zen-brand",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://res.cloudinary.com/dvfmse8he/video/upload/v1721387296/Screen_Recording_2024-07-19_at_11.01.50_AM_t3fg6e.mov",
+    },
   ],
 
   brand: [
