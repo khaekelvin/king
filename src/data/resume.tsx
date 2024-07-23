@@ -180,7 +180,7 @@ export const DATA = {
       active: true,
       description:
         "At Zen, we believe in the beauty of simplicity and the power of mindfulness. Our brand is dedicated to creating timeless, minimalist clothing that embodies tranquility and elegance",
-      technologies: ["Next.js", "Typescript", "TailwindCSS"],
+      technologies: ["Next.js", "Typescript", "TailwindCSS", "Magic UI"],
       links: [
         {
           type: "Website",
@@ -196,6 +196,30 @@ export const DATA = {
       image: "",
       video:
         "https://res.cloudinary.com/dvfmse8he/video/upload/v1721387296/Screen_Recording_2024-07-19_at_11.01.50_AM_t3fg6e.mov",
+    },
+    {
+      title: "Articl-blog",
+      href: "https://zen-brand.vercel.app/",
+      dates: "February 2024 - June 2024",
+      active: true,
+      description:
+        "On this blog, I share my experiences, tips, and insights on web design, development, and the latest industry trends.",
+      technologies: ["Next.js", "Astro", "Javascript", "TailwindCSS", "Giscus"],
+      links: [
+        {
+          type: "Website",
+          href: "https://article-blog-sandy.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/khaekelvin/article-blog",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image:
+        "https://res.cloudinary.com/dvfmse8he/image/upload/v1721727327/Screenshot_2024-07-23_at_9.26.07_AM_uthgta.png",
+      video: "",
     },
   ],
 
