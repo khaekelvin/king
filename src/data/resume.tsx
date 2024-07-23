@@ -199,7 +199,7 @@ export const DATA = {
     },
     {
       title: "Articl-blog",
-      href: "https://zen-brand.vercel.app/",
+      href: "https://article-blog-sandy.vercel.app/",
       dates: "February 2024 - June 2024",
       active: true,
       description:
