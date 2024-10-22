@@ -29,7 +29,7 @@ export const DATA = {
     // { href: "/blog", icon: NotebookIcon, label: "Blog" },
     // { href: "#", icon: CodeIcon, label: "Projects" },
     {
-      href: "https://drive.google.com/drive/folders/1P-KYP_t7xsW_FdgcguBrgAleVxpOoelO?zx=5sai0n2qowex",
+      href: "https://drive.google.com/file/d/1t5lOEukIqNbB0NI8_VEc_NFvYdwGq0us/view?usp=sharing",
       icon: PencilLine,
       label: "resume",
     },
