@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/ghana",
   description: "Web Developer | UI/UX Designer | Graphic Designer",
   summary:
-    "My name is Kelvin, and I'm a web developer currently studying at a University. With a passion for design and an eye for detail..",
+    "My name is Kelvin Duobu, and I'm a web developer currently studying at a University. With a passion for design and an eye for detail..",
   avatarUrl: "/skull.gif",
   skills: [
     "React",
@@ -17,10 +17,12 @@ export const DATA = {
     "Typescript",
     "Astro",
     "React Native",
+    "Expo",
     "Tailwind CSS",
     "Node.js",
-    "figma",
-    "canva",
+    "Figma",
+    "Canva",
+    "Photoshop",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -72,12 +74,24 @@ export const DATA = {
       href: "https://atomic.finance",
       badges: [],
       location: "On-site",
-      title: "Frontend Intern",
+      title: "Frontend Developer",
+      logoUrl: "/pces.png",
+      start: "June 2023",
+      end: "August 2023",
+      description:
+        "During my internship at PCES, I developed and tested software applications using NextJs, Typescript, Tailwind CSS and collaborated with cross-functional teams to enhance user experience and ensure project alignment. This experience strengthened my coding skills and teamwork abilities.",
+    },
+    {
+      company: "PCES DOO",
+      href: "https://atomic.finance",
+      badges: [],
+      location: "On-site",
+      title: "UI/UX Designer",
       logoUrl: "/pces.png",
       start: "June 2024",
       end: "August 2024",
       description:
-        "During my internship at PCES, I developed and tested software applications using NextJs, Typescript, Tailwind CSS and collaborated with cross-functional teams to enhance user experience and ensure project alignment. This experience strengthened my coding skills and teamwork abilities.",
+        "During my internship at PCES, I focused on creating user-centered designs and improving the overall user experience. I collaborated with cross-functional teams to conduct user research, create wireframes, and develop interactive prototypes. Utilizing tools like Figma, I translated design concepts into high-fidelity mockups, while incorporating user feedback to iterate on designs.",
     },
   ],
 
@@ -222,6 +236,30 @@ export const DATA = {
         "https://res.cloudinary.com/dvfmse8he/image/upload/v1721727327/Screenshot_2024-07-23_at_9.26.07_AM_uthgta.png",
       video: "",
     },
+    {
+      title: "Calorie Ai App",
+      href: "",
+      dates: "September 2024",
+      active: true,
+      description:
+        "AI-powered app gives you real-time, accurate calorie counts by analyzing your meal photos, helping you stay on track with your health goals.",
+      technologies: ["Next.js", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://ai-platemate.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/khaekelvin/color",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://res.cloudinary.com/dvfmse8he/video/upload/v1729612408/Web-gallery-_remix_b4kirl.mp4",
+    },
   ],
 
   brand: [
@@ -301,6 +339,67 @@ export const DATA = {
         "https://res.cloudinary.com/dvfmse8he/image/upload/v1721060253/Screenshot_2024-07-15_at_4.16.41_PM_szjfr7.png",
       video: "",
     },
+  ],
+
+  ui: [
+    {
+      title: "Sync",
+      href: "",
+      dates: "October 16th 2024",
+      active: true,
+      description:
+        "The Sync App is a music suggestions platform designed to offer a personalized music discovery experience. It allows users to explore various music genres, listen to song previews, and discover new tracks.",
+      technologies: ["Figma", "React native", "Jitter", "Expo"],
+      links: [
+        {
+          type: "Music Application",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://res.cloudinary.com/dvfmse8he/video/upload/v1729610585/Animated-iPhone-mockup-_remix_i1vmo3.mp4",
+    },
+    {
+      title: "Pay",
+      href: "",
+      dates: "October 5th 2024",
+      active: true,
+      description:
+        "The Store Registry App is a comprehensive solution designed to streamline inventory management for retail businesses.",
+      technologies: ["Figma", "Expo"],
+      links: [
+        {
+          type: "Inventory App",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://res.cloudinary.com/dvfmse8he/video/upload/v1729611581/Showreel-Grid-Mobile-003-_remix_uduxqd.mp4",
+    },
+
+    // {
+    //   title: "The Kings",
+    //   href: "https://www.behance.net/gallery/174894245/Esports-Brand",
+    //   dates: "July 9th 2023",
+    //   active: true,
+    //   description:
+    //     "The Kings, where passion meets performance. As a premier esports organization, we are dedicated to excellence in competitive gaming.",
+    //   technologies: ["Canva", "Photoshop"],
+    //   links: [
+    //     {
+    //       type: "Esports Brand",
+    //       href: "https://www.behance.net/gallery/174894245/Esports-Brand",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image:
+    //     "https://res.cloudinary.com/dvfmse8he/image/upload/v1721060253/Screenshot_2024-07-15_at_4.16.41_PM_szjfr7.png",
+    //   video: "",
+    // },
   ],
   hackathons: [
     {
