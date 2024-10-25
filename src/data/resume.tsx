@@ -10,7 +10,8 @@ export const DATA = {
   description: "Web Developer | UI/UX Designer | Graphic Designer",
   summary:
     "My name is Kelvin Duobu, and I'm a web developer currently studying at a University. With a passion for design and an eye for detail..",
-  avatarUrl: "/skull.gif",
+  // avatarUrl: "/skull.gif",
+  avatarUrl: "/gog.JPG",
   skills: [
     "React",
     "Next.js",
