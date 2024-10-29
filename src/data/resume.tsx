@@ -32,7 +32,7 @@ export const DATA = {
     {
       href: "https://drive.google.com/file/d/1t5lOEukIqNbB0NI8_VEc_NFvYdwGq0us/view?usp=sharing",
       icon: PencilLine,
-      label: "resume",
+      label: "Resume",
     },
   ],
   contact: {
@@ -50,6 +50,13 @@ export const DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/kelvin-duobu",
         icon: Icons.linkedin,
+
+        navbar: true,
+      },
+      Behance: {
+        name: "LinkedIn",
+        url: "https://www.behance.net/codegraphixx",
+        icon: Icons.globe,
 
         navbar: true,
       },
@@ -235,6 +242,29 @@ export const DATA = {
       ],
       image:
         "https://res.cloudinary.com/dvfmse8he/image/upload/v1721727327/Screenshot_2024-07-23_at_9.26.07_AM_uthgta.png",
+      video: "",
+    },
+    {
+      title: "Jaqis Carport",
+      href: "",
+      dates: "September 2023",
+      active: true,
+      description:
+        "At Jaqi's Carport, our mission is simple: to make your car ownership experience as enjoyable and hassle-free as possible.",
+      technologies: ["Next.js", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://jaqiscarport.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/khaekelvin/color",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "/car.png",
       video: "",
     },
     {
