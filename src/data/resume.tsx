@@ -352,6 +352,24 @@ export const DATA = {
         "https://res.cloudinary.com/dvfmse8he/video/upload/v1721057807/Group-1321316201_sohjxz.mp4",
     },
     {
+      title: "Booked",
+      href: "",
+      dates: "October 27th 2024",
+      active: true,
+      description:
+        "Booked is a sleek and intuitive online booking platform designed to streamline appointment management for service-based businesses. ",
+      technologies: ["Figma", "Canva"],
+      links: [
+        {
+          type: "Service Booking Brand",
+          href: "https://www.behance.net/gallery/211473079/Booked?",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/add.png",
+      video: "",
+    },
+    {
       title: "Hollow",
       href: "https://www.behance.net/gallery/198507869/Hollow-Brand",
       dates: "May 13th 2024",
@@ -393,6 +411,24 @@ export const DATA = {
 
   ui: [
     {
+      title: "Booked",
+      href: "",
+      dates: "October 27th 2024",
+      active: true,
+      description:
+        "Booked is a sleek and intuitive online booking platform designed to streamline appointment management for service-based businesses. ",
+      technologies: ["Figma"],
+      links: [
+        {
+          type: "Service Booking Application",
+          href: "https://www.behance.net/gallery/211473079/Booked?",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/Sign Up.png",
+      video: "",
+    },
+    {
       title: "Sync",
       href: "",
       dates: "October 16th 2024",
@@ -429,6 +465,23 @@ export const DATA = {
       image: "",
       video:
         "https://res.cloudinary.com/dvfmse8he/video/upload/v1729611581/Showreel-Grid-Mobile-003-_remix_uduxqd.mp4",
+    },
+    {
+      title: "MyPressing",
+      href: "https://www.behance.net/gallery/211474935/MyPressing",
+      dates: "October 5th 2024",
+      active: true,
+      description: "Laundry App",
+      technologies: ["Figma"],
+      links: [
+        {
+          type: "Laundry App",
+          href: "https://www.behance.net/gallery/211474935/MyPressing",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/Soon.png",
+      video: "",
     },
 
     // {
