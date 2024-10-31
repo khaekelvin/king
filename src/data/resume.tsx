@@ -149,6 +149,47 @@ export const DATA = {
         "https://res.cloudinary.com/dvfmse8he/video/upload/v1721071958/Showreel_-Web-gallery-_remix_ujpfpy.mp4",
     },
     {
+      title: "Jaqis Carport",
+      href: "",
+      dates: "September 2023",
+      active: true,
+      description:
+        "At Jaqi's Carport, our mission is simple: to make your car ownership experience as enjoyable and hassle-free as possible.",
+      technologies: ["Next.js", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://jaqiscarport.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/khaekelvin/color",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "/car.png",
+      video: "",
+    },
+    {
+      title: "J Translate",
+      href: "https://translate-roan-nine.vercel.app/",
+      dates: "July 2024 - Aug 2024",
+      active: true,
+      description:
+        "A tool designed to streamline the process of translating the content of JSON files",
+      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://translate-roan-nine.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/trans.png",
+      video: "",
+    },
+    {
       title: "ARC",
       href: "https://arc-proj.vercel.app/",
       dates: "June 2024 - July 2024",
@@ -244,29 +285,7 @@ export const DATA = {
         "https://res.cloudinary.com/dvfmse8he/image/upload/v1721727327/Screenshot_2024-07-23_at_9.26.07_AM_uthgta.png",
       video: "",
     },
-    {
-      title: "Jaqis Carport",
-      href: "",
-      dates: "September 2023",
-      active: true,
-      description:
-        "At Jaqi's Carport, our mission is simple: to make your car ownership experience as enjoyable and hassle-free as possible.",
-      technologies: ["Next.js", "TailwindCSS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://jaqiscarport.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/khaekelvin/color",
-        //   icon: <Icons.github className="size-3" />,
-        // },
-      ],
-      image: "/car.png",
-      video: "",
-    },
+
     {
       title: "Calorie Ai App",
       href: "",
