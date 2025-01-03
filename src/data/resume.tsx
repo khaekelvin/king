@@ -15,6 +15,8 @@ export const DATA = {
   skills: [
     "React",
     "Next.js",
+    "MongoDB",
+    "Prisma",
     "Typescript",
     "Astro",
     "React Native",
@@ -23,6 +25,7 @@ export const DATA = {
     "Node.js",
     "Figma",
     "Canva",
+    "Jitter",
     "Photoshop",
   ],
   navbar: [
@@ -123,30 +126,28 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "School Management System",
-      href: "https://management-psi.vercel.app/",
-      dates: "May 2023 - Jun 2023",
+      title: "Echo",
+      href: "",
+      dates: "December 2024",
       active: true,
       description:
-        "The School Management System is a web-based application designed to streamline the administrative and academic activities of a school.",
-      technologies: [
-        "Next.js",
-        "Javascript",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-      ],
+        "Echo is an intuitive campus event management system designed to streamline event discovery, organization, and participation.",
+      technologies: ["React.js", "TailwindCSS", "MongoDB"],
       links: [
         {
           type: "Website",
-          href: "https://management-psi.vercel.app/",
+          href: "https://echo-event.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/khaekelvin/color",
+        //   icon: <Icons.github className="size-3" />,
+        // },
       ],
       image: "",
       video:
-        "https://res.cloudinary.com/dvfmse8he/video/upload/v1721071958/Showreel_-Web-gallery-_remix_ujpfpy.mp4",
+        "https://res.cloudinary.com/dvfmse8he/video/upload/v1735929144/Website-Promo-_remix_ansq65.mp4",
     },
     {
       title: "Jaqis Carport",
@@ -190,78 +191,6 @@ export const DATA = {
       video: "",
     },
     {
-      title: "ARC",
-      href: "https://arc-proj.vercel.app/",
-      dates: "June 2024 - July 2024",
-      active: true,
-      description:
-        "Arc offers a comprehensive look at our portfolio, showcasing a diverse range of projects that blend aesthetics, functionality, and environmental responsibility.",
-      technologies: ["Next.js", "Typescript", "TailwindCSS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://arc-proj.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/khaekelvin/arc",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://res.cloudinary.com/dvfmse8he/video/upload/v1721072939/Animated-iPad-mockup-_remix_yx0aee.mp4",
-    },
-    {
-      title: "BlogSite",
-      href: "https://openblogsite.netlify.app/",
-      dates: "February 2024 - June 2024",
-      active: true,
-      description:
-        "Blogsite showcases a responsive and intuitive user interface, ensuring that content is easily accessible and visually appealing on any device.Explore BlogSite and discover a platform that combines beautiful design with powerful functionality, perfect for both bloggers and readers.",
-      technologies: ["Next.js", "Typescript", "TailwindCSS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://openblogsite.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/khaekelvin/blogsite",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://res.cloudinary.com/dvfmse8he/video/upload/v1721072453/Image-Mask_-Parallax-Effect-_remix_uzjt8k.mp4",
-    },
-    {
-      title: "Zen",
-      href: "https://zen-brand.vercel.app/",
-      dates: "February 2024 - June 2024",
-      active: true,
-      description:
-        "At Zen, we believe in the beauty of simplicity and the power of mindfulness. Our brand is dedicated to creating timeless, minimalist clothing that embodies tranquility and elegance",
-      technologies: ["Next.js", "Typescript", "TailwindCSS", "Magic UI"],
-      links: [
-        {
-          type: "Website",
-          href: "https://zen-brand.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/khaekelvin/zen-brand",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://res.cloudinary.com/dvfmse8he/video/upload/v1721387296/Screen_Recording_2024-07-19_at_11.01.50_AM_t3fg6e.mov",
-    },
-    {
       title: "Article-blog",
       href: "https://article-blog-sandy.vercel.app/",
       dates: "February 2024 - June 2024",
@@ -275,41 +204,140 @@ export const DATA = {
           href: "https://article-blog-sandy.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/khaekelvin/article-blog",
-          icon: <Icons.github className="size-3" />,
-        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/khaekelvin/article-blog",
+        //   icon: <Icons.github className="size-3" />,
+        // },
       ],
       image:
         "https://res.cloudinary.com/dvfmse8he/image/upload/v1721727327/Screenshot_2024-07-23_at_9.26.07_AM_uthgta.png",
       video: "",
     },
-
     {
-      title: "Calorie Ai App",
-      href: "",
-      dates: "September 2024",
+      title: "ARC",
+      href: "https://arc-proj.vercel.app/",
+      dates: "June 2024 - July 2024",
       active: true,
       description:
-        "AI-powered app gives you real-time, accurate calorie counts by analyzing your meal photos, helping you stay on track with your health goals.",
-      technologies: ["Next.js", "TailwindCSS"],
+        "Arc offers a comprehensive look at our portfolio, showcasing a diverse range of projects that blend aesthetics, functionality, and environmental responsibility.",
+      technologies: ["Next.js", "Typescript", "TailwindCSS"],
       links: [
         {
           type: "Website",
-          href: "https://ai-platemate.vercel.app/",
+          href: "https://arc-proj.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/khaekelvin/color",
-          icon: <Icons.github className="size-3" />,
-        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/khaekelvin/arc",
+        //   icon: <Icons.github className="size-3" />,
+        // },
       ],
       image: "",
       video:
-        "https://res.cloudinary.com/dvfmse8he/video/upload/v1729612408/Web-gallery-_remix_b4kirl.mp4",
+        "https://res.cloudinary.com/dvfmse8he/video/upload/v1721072939/Animated-iPad-mockup-_remix_yx0aee.mp4",
     },
+
+    // {
+    //   title: "School Management System",
+    //   href: "https://management-psi.vercel.app/",
+    //   dates: "May 2023 - Jun 2023",
+    //   active: true,
+    //   description:
+    //     "The School Management System is a web-based application designed to streamline the administrative and academic activities of a school.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Javascript",
+    //     "Typescript",
+    //     "TailwindCSS",
+    //     "Shadcn UI",
+    //     "Magic UI",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://management-psi.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video:
+    //     "https://res.cloudinary.com/dvfmse8he/video/upload/v1721071958/Showreel_-Web-gallery-_remix_ujpfpy.mp4",
+    // },
+    // {
+    //   title: "BlogSite",
+    //   href: "https://openblogsite.netlify.app/",
+    //   dates: "February 2024 - June 2024",
+    //   active: true,
+    //   description:
+    //     "Blogsite showcases a responsive and intuitive user interface, ensuring that content is easily accessible and visually appealing on any device.Explore BlogSite and discover a platform that combines beautiful design with powerful functionality, perfect for both bloggers and readers.",
+    //   technologies: ["Next.js", "Typescript", "TailwindCSS"],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://openblogsite.netlify.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/khaekelvin/blogsite",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video:
+    //     "https://res.cloudinary.com/dvfmse8he/video/upload/v1721072453/Image-Mask_-Parallax-Effect-_remix_uzjt8k.mp4",
+    // },
+    // {
+    //   title: "Zen",
+    //   href: "https://zen-brand.vercel.app/",
+    //   dates: "February 2024 - June 2024",
+    //   active: true,
+    //   description:
+    //     "At Zen, we believe in the beauty of simplicity and the power of mindfulness. Our brand is dedicated to creating timeless, minimalist clothing that embodies tranquility and elegance",
+    //   technologies: ["Next.js", "Typescript", "TailwindCSS", "Magic UI"],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://zen-brand.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/khaekelvin/zen-brand",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video:
+    //     "https://res.cloudinary.com/dvfmse8he/video/upload/v1721387296/Screen_Recording_2024-07-19_at_11.01.50_AM_t3fg6e.mov",
+    // },
+
+    // {
+    //   title: "Calorie Ai App",
+    //   href: "",
+    //   dates: "September 2024",
+    //   active: true,
+    //   description:
+    //     "AI-powered app gives you real-time, accurate calorie counts by analyzing your meal photos, helping you stay on track with your health goals.",
+    //   technologies: ["Next.js", "TailwindCSS"],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://ai-platemate.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/khaekelvin/color",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video:
+    //     "https://res.cloudinary.com/dvfmse8he/video/upload/v1729612408/Web-gallery-_remix_b4kirl.mp4",
+    // },
   ],
 
   brand: [
@@ -435,7 +463,7 @@ export const DATA = {
       active: true,
       description:
         "The Sync App is a music suggestions platform designed to offer a personalized music discovery experience. It allows users to explore various music genres, listen to song previews, and discover new tracks.",
-      technologies: ["Figma", "React native", "Jitter", "Expo"],
+      technologies: ["Figma", "React native", "Expo"],
       links: [
         {
           type: "Music Application",
@@ -471,7 +499,8 @@ export const DATA = {
       href: "https://www.behance.net/gallery/211474935/MyPressin",
       dates: "October 5th 2024",
       active: true,
-      description: "Laundry App",
+      description:
+        "LaundryLink is a dynamic app designed to revolutionize how users access laundry services. Mypressing connects users to nearby laundry providers with ease and efficiency.",
       technologies: ["Figma"],
       links: [
         {
