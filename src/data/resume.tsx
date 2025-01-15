@@ -82,7 +82,7 @@ export const DATA = {
   work: [
     {
       company: "PCES DOO",
-      href: "https://atomic.finance",
+      href: "https://pces.mk/",
       badges: [],
       location: "On-site",
       title: "Frontend Developer",
@@ -94,7 +94,7 @@ export const DATA = {
     },
     {
       company: "PCES DOO",
-      href: "https://atomic.finance",
+      href: "https://pces.mk/",
       badges: [],
       location: "On-site",
       title: "UI/UX Designer",
@@ -117,7 +117,7 @@ export const DATA = {
     },
     {
       school: "Academic City University",
-      href: "https://uwaterloo.ca",
+      href: "https://acity.edu.gh/",
       degree: "Computer Science",
       logoUrl: "/aaacity.png",
       start: "2022",
@@ -379,24 +379,7 @@ export const DATA = {
       video:
         "https://res.cloudinary.com/dvfmse8he/video/upload/v1721057807/Group-1321316201_sohjxz.mp4",
     },
-    {
-      title: "Booked",
-      href: "https://www.behance.net/gallery/211473079/Booked",
-      dates: "October 27th 2024",
-      active: true,
-      description:
-        "Booked is a sleek and intuitive online booking platform designed to streamline appointment management for service-based businesses. ",
-      technologies: ["Figma", "Canva"],
-      links: [
-        {
-          type: "Service Booking Brand",
-          href: "https://www.behance.net/gallery/211473079/Booked?",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/add.png",
-      video: "",
-    },
+    
     {
       title: "Hollow",
       href: "https://www.behance.net/gallery/198507869/Hollow-Brand",
@@ -445,15 +428,15 @@ export const DATA = {
       active: true,
       description:
         "Booked is a sleek and intuitive online booking platform designed to streamline appointment management for service-based businesses. ",
-      technologies: ["Figma"],
+      technologies: ["Figma", "Canva"],
       links: [
         {
-          type: "Service Booking Application",
+          type: "Service Booking Brand",
           href: "https://www.behance.net/gallery/211473079/Booked?",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/Sign Up.png",
+      image: "https://res.cloudinary.com/dvfmse8he/image/upload/v1736983639/Screenshot_2025-01-15_at_11.27.00_PM_r3fr8e.png",
       video: "",
     },
     {
