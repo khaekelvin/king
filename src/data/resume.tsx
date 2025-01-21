@@ -33,7 +33,7 @@ export const DATA = {
     // { href: "/blog", icon: NotebookIcon, label: "Blog" },
     // { href: "#", icon: CodeIcon, label: "Projects" },
     {
-      href: "https://drive.google.com/file/d/1t5lOEukIqNbB0NI8_VEc_NFvYdwGq0us/view?usp=sharing",
+      href: "https://drive.google.com/drive/folders/1P-KYP_t7xsW_FdgcguBrgAleVxpOoelO?usp=sharing",
       icon: PencilLine,
       label: "Resume",
     },
@@ -379,7 +379,7 @@ export const DATA = {
       video:
         "https://res.cloudinary.com/dvfmse8he/video/upload/v1721057807/Group-1321316201_sohjxz.mp4",
     },
-    
+
     {
       title: "Hollow",
       href: "https://www.behance.net/gallery/198507869/Hollow-Brand",
@@ -436,7 +436,8 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://res.cloudinary.com/dvfmse8he/image/upload/v1736983639/Screenshot_2025-01-15_at_11.27.00_PM_r3fr8e.png",
+      image:
+        "https://res.cloudinary.com/dvfmse8he/image/upload/v1736983639/Screenshot_2025-01-15_at_11.27.00_PM_r3fr8e.png",
       video: "",
     },
     {
