@@ -150,6 +150,28 @@ export const DATA = {
         "https://res.cloudinary.com/dvfmse8he/video/upload/v1735929144/Website-Promo-_remix_ansq65.mp4",
     },
     {
+      title: "FontCase",
+      href: "",
+      dates: "March 2025",
+      active: true,
+      description: "FontCase is font pairing app",
+      technologies: ["Next.js", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://fontcase.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/khaekelvin/color",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "/font.png",
+      video: "",
+    },
+    {
       title: "Jaqis Carport",
       href: "",
       dates: "September 2023",
