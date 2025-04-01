@@ -154,7 +154,8 @@ export const DATA = {
       href: "",
       dates: "March 2025",
       active: true,
-      description: "FontCase is font pairing app",
+      description:
+        "The Font Pairing App is a web-based tool designed to help designers and developers discover and visualize font combinations effortlessly.",
       technologies: ["Next.js", "TailwindCSS"],
       links: [
         {
