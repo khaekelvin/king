@@ -150,6 +150,31 @@ export const DATA = {
         "https://res.cloudinary.com/dvfmse8he/video/upload/v1735929144/Website-Promo-_remix_ansq65.mp4",
     },
     {
+      title: "Easybook",
+      href: "https://easy-book-one.vercel.app/",
+      dates: "November 2024 - December 2024",
+      active: true,
+      description:
+        "A comprehensive service booking system that streamlines appointment scheduling, manages client information, and optimizes service provider availability in one intuitive platform.",
+      technologies: ["Next.js", "Typescript", "TailwindCSS", "MongoDB"],
+      links: [
+        {
+          type: "Website",
+          href: "https://arc-proj.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/khaekelvin/arc",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image:
+        "https://res.cloudinary.com/dvfmse8he/image/upload/v1747933094/e0vlchopfhfwhep6pi9h.png",
+      video: "",
+      //   "https://res.cloudinary.com/dvfmse8he/video/upload/v1721072939/Animated-iPad-mockup-_remix_yx0aee.mp4",
+    },
+    {
       title: "FontCase",
       href: "",
       dates: "March 2025",
@@ -214,7 +239,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Article-blog",
+      title: "Blog",
       href: "https://article-blog-sandy.vercel.app/",
       dates: "February 2024 - June 2024",
       active: true,
@@ -237,130 +262,6 @@ export const DATA = {
         "https://res.cloudinary.com/dvfmse8he/image/upload/v1721727327/Screenshot_2024-07-23_at_9.26.07_AM_uthgta.png",
       video: "",
     },
-    {
-      title: "ARC",
-      href: "https://arc-proj.vercel.app/",
-      dates: "June 2024 - July 2024",
-      active: true,
-      description:
-        "Arc offers a comprehensive look at our portfolio, showcasing a diverse range of projects that blend aesthetics, functionality, and environmental responsibility.",
-      technologies: ["Next.js", "Typescript", "TailwindCSS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://arc-proj.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/khaekelvin/arc",
-        //   icon: <Icons.github className="size-3" />,
-        // },
-      ],
-      image: "",
-      video:
-        "https://res.cloudinary.com/dvfmse8he/video/upload/v1721072939/Animated-iPad-mockup-_remix_yx0aee.mp4",
-    },
-
-    // {
-    //   title: "School Management System",
-    //   href: "https://management-psi.vercel.app/",
-    //   dates: "May 2023 - Jun 2023",
-    //   active: true,
-    //   description:
-    //     "The School Management System is a web-based application designed to streamline the administrative and academic activities of a school.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Javascript",
-    //     "Typescript",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://management-psi.vercel.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://res.cloudinary.com/dvfmse8he/video/upload/v1721071958/Showreel_-Web-gallery-_remix_ujpfpy.mp4",
-    // },
-    // {
-    //   title: "BlogSite",
-    //   href: "https://openblogsite.netlify.app/",
-    //   dates: "February 2024 - June 2024",
-    //   active: true,
-    //   description:
-    //     "Blogsite showcases a responsive and intuitive user interface, ensuring that content is easily accessible and visually appealing on any device.Explore BlogSite and discover a platform that combines beautiful design with powerful functionality, perfect for both bloggers and readers.",
-    //   technologies: ["Next.js", "Typescript", "TailwindCSS"],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://openblogsite.netlify.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/khaekelvin/blogsite",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://res.cloudinary.com/dvfmse8he/video/upload/v1721072453/Image-Mask_-Parallax-Effect-_remix_uzjt8k.mp4",
-    // },
-    // {
-    //   title: "Zen",
-    //   href: "https://zen-brand.vercel.app/",
-    //   dates: "February 2024 - June 2024",
-    //   active: true,
-    //   description:
-    //     "At Zen, we believe in the beauty of simplicity and the power of mindfulness. Our brand is dedicated to creating timeless, minimalist clothing that embodies tranquility and elegance",
-    //   technologies: ["Next.js", "Typescript", "TailwindCSS", "Magic UI"],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://zen-brand.vercel.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/khaekelvin/zen-brand",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://res.cloudinary.com/dvfmse8he/video/upload/v1721387296/Screen_Recording_2024-07-19_at_11.01.50_AM_t3fg6e.mov",
-    // },
-
-    // {
-    //   title: "Calorie Ai App",
-    //   href: "",
-    //   dates: "September 2024",
-    //   active: true,
-    //   description:
-    //     "AI-powered app gives you real-time, accurate calorie counts by analyzing your meal photos, helping you stay on track with your health goals.",
-    //   technologies: ["Next.js", "TailwindCSS"],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://ai-platemate.vercel.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/khaekelvin/color",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://res.cloudinary.com/dvfmse8he/video/upload/v1729612408/Web-gallery-_remix_b4kirl.mp4",
-    // },
   ],
 
   brand: [
@@ -443,6 +344,66 @@ export const DATA = {
     },
   ],
 
+  walls: [
+    {
+      title: "SandLands",
+      href: "https://res.cloudinary.com/dvfmse8he/image/upload/v1747934563/sandlands_go92zi.png",
+      dates: "July 6th 2024",
+      active: true,
+      description:
+        "A minimalist desert landscape wallpaper featuring smooth sand dunes with subtle gradient lighting, creating a calm and serene atmosphere perfect for modern desktops.",
+      technologies: ["Blender", "Photoshop"],
+      links: [
+        {
+          type: "Wallpaper",
+          href: "https://res.cloudinary.com/dvfmse8he/image/upload/v1747934563/sandlands_go92zi.png",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://res.cloudinary.com/dvfmse8he/image/upload/v1747934563/sandlands_go92zi.png",
+      video: "",
+    },
+    {
+      title: "Crystal",
+      href: "https://res.cloudinary.com/dvfmse8he/image/upload/v1747934546/Glass_yl2lot.png",
+      dates: "March 27th 2025",
+      active: true,
+      description:
+        "A mesmerizing abstract wallpaper featuring translucent crystal formations with subtle light refractions, creating an elegant and modern aesthetic with a soothing blue-tinted color palette.",
+      technologies: ["Blender", "Photoshop"],
+      links: [
+        {
+          type: "Wallpaper",
+          href: "https://res.cloudinary.com/dvfmse8he/image/upload/v1747934546/Glass_yl2lot.png",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://res.cloudinary.com/dvfmse8he/image/upload/v1747934546/Glass_yl2lot.png",
+      video: "",
+    },
+    {
+      title: "Red",
+      href: "https://res.cloudinary.com/dvfmse8he/image/upload/v1747934563/sand-main_allbfi.png",
+      dates: "March 27th 2025",
+      active: true,
+      description:
+        "A vibrant abstract wallpaper with dramatic red tones and flowing sand-like textures, creating a bold visual statement that evokes the feeling of desert heat and natural movement.",
+      technologies: ["Blender"],
+      links: [
+        {
+          type: "Wallpaper",
+          href: "https://res.cloudinary.com/dvfmse8he/image/upload/v1747934563/sand-main_allbfi.png",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://res.cloudinary.com/dvfmse8he/image/upload/v1747934563/sand-main_allbfi.png",
+      video: "",
+    },
+  ],
+
   ui: [
     {
       title: "Booked",
@@ -519,26 +480,6 @@ export const DATA = {
       image: "/Soon.png",
       video: "",
     },
-
-    // {
-    //   title: "The Kings",
-    //   href: "https://www.behance.net/gallery/174894245/Esports-Brand",
-    //   dates: "July 9th 2023",
-    //   active: true,
-    //   description:
-    //     "The Kings, where passion meets performance. As a premier esports organization, we are dedicated to excellence in competitive gaming.",
-    //   technologies: ["Canva", "Photoshop"],
-    //   links: [
-    //     {
-    //       type: "Esports Brand",
-    //       href: "https://www.behance.net/gallery/174894245/Esports-Brand",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image:
-    //     "https://res.cloudinary.com/dvfmse8he/image/upload/v1721060253/Screenshot_2024-07-15_at_4.16.41_PM_szjfr7.png",
-    //   video: "",
-    // },
   ],
   hackathons: [
     {

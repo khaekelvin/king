@@ -238,6 +238,49 @@ export default function Page() {
         </div>
       </section>
 
+      <section id="projects">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 11}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  3D Modeling
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Wallpapers
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Crafted using Blender, my 3D wallpapers combine abstract
+                  geometry, dramatic lighting, and rich textures to create
+                  visually striking digital environments.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+            {DATA.walls &&
+              DATA.walls.map((walls, id) => (
+                <BlurFade
+                  key={walls.title}
+                  delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+                >
+                  <ProjectCard
+                    href={walls.href}
+                    key={walls.title}
+                    title={walls.title}
+                    description={walls.description}
+                    dates={walls.dates}
+                    tags={walls.technologies}
+                    image={walls.image}
+                    video={walls.video}
+                    links={walls.links}
+                  />
+                </BlurFade>
+              ))}
+          </div>
+        </div>
+      </section>
+
       <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
