@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/ghana",
   description: "Web Developer | UI/UX Designer | Graphic Designer",
   summary:
-    "My name is Kelvin Duobu, and I'm a web developer currently studying at a University. With a passion for design and an eye for detail..",
+    "My name is Kelvin Duobu, and I'm a Web Developer, Mobile Developer UI/UX Desinger and Brand designer, With a passion for design and an eye for detail..",
   // avatarUrl: "/skull.gif",
   avatarUrl: "/gog.JPG",
   skills: [
