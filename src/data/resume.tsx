@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/ghana",
   description: "Web Developer | UI/UX Designer | Graphic Designer",
   summary:
-    "My name is Kelvin Duobu, and I'm a Web Developer, Mobile Developer UI/UX Desinger and Brand designer, With a passion for design and an eye for detail..",
+    "I'm a digital creator with a focus on building modern web and mobile experiences. I combine skills in UI/UX design, web and mobile development, brand design, and video editing to craft impactful digital products from idea to launch.",
   // avatarUrl: "/skull.gif",
   avatarUrl: "/gog.JPG",
   skills: [
