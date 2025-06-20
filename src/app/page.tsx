@@ -162,7 +162,7 @@ export default function Page() {
                   UI/UX
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  UI/UX Projects
+                  UI/UX Design
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   As a UI/UX designer, I specialize in creating user-centric
@@ -204,7 +204,7 @@ export default function Page() {
                   Graphic Design
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Graphic Design Projects
+                  Graphic Design
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   My work combines creativity, attention to detail, and a strong
