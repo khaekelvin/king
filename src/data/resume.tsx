@@ -204,7 +204,7 @@ export const DATA = {
       dates: "March 2025",
       active: true,
       description:
-        "The Font Pairing App is a web-based tool designed to help designers and developers discover and visualize font combinations effortlessly.",
+        "The Font Pairing App is a tool designed to help designers and developers discover and visualize font combinations effortlessly.",
       technologies: ["Next.js", "TailwindCSS"],
       links: [
         {
@@ -218,7 +218,7 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "/font.png",
+      image: "https://res.cloudinary.com/dvfmse8he/image/upload/v1752541091/Screenshot_2025-07-15_at_12.58.04_AM_xtkq7r.png",
       video: "",
     },
     {
