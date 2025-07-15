@@ -295,7 +295,7 @@ export const DATA = {
       dates: "July 6th 2024",
       active: true,
       description:
-        "At Zen, we believe in the beauty of simplicity and the power of mindfulness. Our brand is dedicated to creating timeless, minimalist clothing that embodies tranquility and elegance",
+        "Zen is a brand that is dedicated to creating timeless, minimalist clothing that embodies tranquility and elegance",
       technologies: ["Figma", "Canva", "Photoshop", "Jitter"],
       links: [
         {
@@ -314,7 +314,7 @@ export const DATA = {
       dates: "July 1st 2024",
       active: true,
       description:
-        "ARC’s brand message focuses on innovation, sustainability, and collaboration. The tagline, “Building the Future, Today,” encapsulates ARC’s mission to create cutting-edge, environmentally responsible designs through a client-centric approach.",
+        "ARC’s brand message focuses on innovation, sustainability, and collaboration.",
       technologies: ["Figma", "Canva"],
       links: [
         {
@@ -334,7 +334,7 @@ export const DATA = {
       dates: "May 13th 2024",
       active: true,
       description:
-        "Hollow is a contemporary clothing brand that redefines modern fashion with a minimalist edge. Our designs blend simplicity with sophistication, offering versatile pieces that effortlessly transition from day to night. ",
+        "Hollow is a contemporary clothing brand that redefines modern fashion with a minimalist edge.",
       technologies: ["Canva", "Photoshop"],
       links: [
         {
