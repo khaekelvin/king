@@ -126,6 +126,30 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Flowstate",
+      href: "",
+      dates: "July 2025",
+      active: true,
+      description:
+        "FlowState builds custom automations that eliminate repetitive tasks, so you can focus on what matters.",
+      technologies: ["Next.js", "TailwindCSS", "n8n", "Make.com"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.flowstates.live/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/khaekelvin/color",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "https://res.cloudinary.com/dvfmse8he/image/upload/v1752540939/Screenshot_2025-07-15_at_12.55.31_AM_ynbb6r.png",
+      video:
+        "",
+    },
+    {
       title: "Echo",
       href: "",
       dates: "December 2024",
@@ -220,24 +244,24 @@ export const DATA = {
       image: "/car.png",
       video: "",
     },
-    {
-      title: "J Translate",
-      href: "https://translate-roan-nine.vercel.app/",
-      dates: "July 2024 - Aug 2024",
-      active: true,
-      description:
-        "A tool designed to streamline the process of translating the content of JSON files",
-      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
-      links: [
-        {
-          type: "Website",
-          href: "https://translate-roan-nine.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/trans.png",
-      video: "",
-    },
+    // {
+    //   title: "J Translate",
+    //   href: "https://translate-roan-nine.vercel.app/",
+    //   dates: "July 2024 - Aug 2024",
+    //   active: true,
+    //   description:
+    //     "A tool designed to streamline the process of translating the content of JSON files",
+    //   technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://translate-roan-nine.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/trans.png",
+    //   video: "",
+    // },
     {
       title: "Blog",
       href: "https://article-blog-sandy.vercel.app/",
@@ -406,6 +430,24 @@ export const DATA = {
 
   ui: [
     {
+      title: "Mythos",
+      href: "https://www.behance.net/gallery/211474935/Mythos",
+      dates: "July 10th 2025",
+      active: true,
+      description:
+        "Mythos is a dynamic app designed to revolutionize how users track their finances.",
+      technologies: ["Figma"],
+      links: [
+        {
+          type: "Finance App",
+          href: "https://www.behance.net/gallery/211474935/Mythos",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/myth.png",
+      video: "",
+    },
+    {
       title: "Booked",
       href: "https://www.behance.net/gallery/211473079/Booked",
       dates: "October 27th 2024",
@@ -430,7 +472,7 @@ export const DATA = {
       dates: "October 16th 2024",
       active: true,
       description:
-        "The Sync App is a music suggestions platform designed to offer a personalized music discovery experience. It allows users to explore various music genres, listen to song previews, and discover new tracks.",
+        "The Sync App is a music suggestions platform designed to offer a personalized music discovery experience.",
       technologies: ["Figma", "React native", "Expo"],
       links: [
         {
@@ -462,24 +504,7 @@ export const DATA = {
       video:
         "https://res.cloudinary.com/dvfmse8he/video/upload/v1729611581/Showreel-Grid-Mobile-003-_remix_uduxqd.mp4",
     },
-    {
-      title: "MyPressing",
-      href: "https://www.behance.net/gallery/211474935/MyPressin",
-      dates: "October 5th 2024",
-      active: true,
-      description:
-        "LaundryLink is a dynamic app designed to revolutionize how users access laundry services. Mypressing connects users to nearby laundry providers with ease and efficiency.",
-      technologies: ["Figma"],
-      links: [
-        {
-          type: "Laundry App",
-          href: "https://www.behance.net/gallery/211474935/MyPressing",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/Soon.png",
-      video: "",
-    },
+
   ],
   hackathons: [
     {
