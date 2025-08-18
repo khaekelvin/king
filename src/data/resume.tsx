@@ -127,7 +127,7 @@ export const DATA = {
   projects: [
     {
       title: "Flowstate",
-      href: "",
+      href: "https://www.flowstates.live/",
       dates: "July 2025",
       active: true,
       description:
@@ -149,18 +149,42 @@ export const DATA = {
       video:
         "",
     },
+    // {
+    //   title: "Echo",
+    //   href: "",
+    //   dates: "December 2024",
+    //   active: true,
+    //   description:
+    //     "Echo is an intuitive campus event management system designed to streamline event discovery, organization, and participation.",
+    //   technologies: ["React.js", "TailwindCSS", "MongoDB"],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://echo-event.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     // {
+    //     //   type: "Source",
+    //     //   href: "https://github.com/khaekelvin/color",
+    //     //   icon: <Icons.github className="size-3" />,
+    //     // },
+    //   ],
+    //   image: "",
+    //   video:
+    //     "https://res.cloudinary.com/dvfmse8he/video/upload/v1735929144/Website-Promo-_remix_ansq65.mp4",
+    // },
     {
-      title: "Echo",
-      href: "",
-      dates: "December 2024",
+      title: "Jaqis Carport",
+      href: "https://jaqiscarport.com/",
+      dates: "September 2023",
       active: true,
       description:
-        "Echo is an intuitive campus event management system designed to streamline event discovery, organization, and participation.",
-      technologies: ["React.js", "TailwindCSS", "MongoDB"],
+        "At Jaqi's Carport, our mission is simple: to make your car ownership experience as enjoyable and hassle-free as possible.",
+      technologies: ["Next.js", "TailwindCSS"],
       links: [
         {
           type: "Website",
-          href: "https://echo-event.vercel.app/",
+          href: "https://jaqiscarport.com/",
           icon: <Icons.globe className="size-3" />,
         },
         // {
@@ -169,9 +193,8 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "",
-      video:
-        "https://res.cloudinary.com/dvfmse8he/video/upload/v1735929144/Website-Promo-_remix_ansq65.mp4",
+      image: "/car.png",
+      video: "",
     },
     {
       title: "Easybook",
@@ -184,7 +207,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://arc-proj.vercel.app/",
+          href: "https://easy-book-one.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         // {
@@ -200,7 +223,7 @@ export const DATA = {
     },
     {
       title: "FontCase",
-      href: "",
+      href: "https://fontcase.vercel.app/",
       dates: "March 2025",
       active: true,
       description:
@@ -222,17 +245,17 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Jaqis Carport",
-      href: "",
-      dates: "September 2023",
+      title: "Xchange",
+      href: "https://x-ratechange.vercel.app/",
+      dates: "July 2025",
       active: true,
       description:
-        "At Jaqi's Carport, our mission is simple: to make your car ownership experience as enjoyable and hassle-free as possible.",
-      technologies: ["Next.js", "TailwindCSS"],
+        "Exchange Rate convertor with ease",
+      technologies: ["Next.js", "TailwindCSS", "API"],
       links: [
         {
           type: "Website",
-          href: "https://jaqiscarport.com/",
+          href: "https://x-ratechange.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         // {
@@ -241,7 +264,7 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "/car.png",
+      image: "/x.png",
       video: "",
     },
     // {
