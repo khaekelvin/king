@@ -145,9 +145,9 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "https://res.cloudinary.com/dvfmse8he/image/upload/v1752540939/Screenshot_2025-07-15_at_12.55.31_AM_ynbb6r.png",
-      video:
-        "",
+      image:
+        "https://res.cloudinary.com/dvfmse8he/image/upload/v1752540939/Screenshot_2025-07-15_at_12.55.31_AM_ynbb6r.png",
+      video: "",
     },
     // {
     //   title: "Echo",
@@ -241,7 +241,8 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "https://res.cloudinary.com/dvfmse8he/image/upload/v1752541091/Screenshot_2025-07-15_at_12.58.04_AM_xtkq7r.png",
+      image:
+        "https://res.cloudinary.com/dvfmse8he/image/upload/v1752541091/Screenshot_2025-07-15_at_12.58.04_AM_xtkq7r.png",
       video: "",
     },
     {
@@ -249,8 +250,7 @@ export const DATA = {
       href: "https://x-ratechange.vercel.app/",
       dates: "July 2025",
       active: true,
-      description:
-        "Exchange Rate convertor with ease",
+      description: "Exchange Rate convertor with ease",
       technologies: ["Next.js", "TailwindCSS", "API"],
       links: [
         {
@@ -313,6 +313,25 @@ export const DATA = {
 
   brand: [
     {
+      title: "ACE",
+      href: "https://www.behance.net/gallery/235619465/ACE-Cosmetic-Brand",
+      dates: "Sept 29th 2025",
+      active: true,
+      description:
+        "A future where everyday beauty routines are gentle on skin and gentle on the planet — where luxury meets transparency.",
+      technologies: ["Figma", "Canva", "Photoshop"],
+      links: [
+        {
+          type: "Cosmetic Brand",
+          href: "https://www.behance.net/gallery/235619465/ACE-Cosmetic-Brand",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://res.cloudinary.com/dvfmse8he/image/upload/v1759844172/aceimggg_gay5fj.png",
+      video: "",
+    },
+    {
       title: "Zen",
       href: "https://www.behance.net/gallery/202658939/Zen",
       dates: "July 6th 2024",
@@ -369,25 +388,6 @@ export const DATA = {
       image: "",
       video:
         "https://res.cloudinary.com/dvfmse8he/video/upload/v1721060053/Photo-Gallery-_remix_dnpogn.mp4",
-    },
-    {
-      title: "The Kings",
-      href: "https://www.behance.net/gallery/174894245/Esports-Brand",
-      dates: "July 9th 2023",
-      active: true,
-      description:
-        "The Kings, where passion meets performance. As a premier esports organization, we are dedicated to excellence in competitive gaming.",
-      technologies: ["Canva", "Photoshop"],
-      links: [
-        {
-          type: "Esports Brand",
-          href: "https://www.behance.net/gallery/174894245/Esports-Brand",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image:
-        "https://res.cloudinary.com/dvfmse8he/image/upload/v1721060253/Screenshot_2024-07-15_at_4.16.41_PM_szjfr7.png",
-      video: "",
     },
   ],
 
@@ -527,7 +527,6 @@ export const DATA = {
       video:
         "https://res.cloudinary.com/dvfmse8he/video/upload/v1729611581/Showreel-Grid-Mobile-003-_remix_uduxqd.mp4",
     },
-
   ],
   hackathons: [
     {
